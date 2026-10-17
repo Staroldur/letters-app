@@ -1,24 +1,52 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="he" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<title>Learn Hebrew Letters - Dino</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="דינו — משחק ללימוד אותיות בעברית עם דינוזאור, ארנב וצב. שלושה מצבי משחק קטנים בעולם של יער.">
+  <meta name="theme-color" content="#eef5e5">
+  <title>דינו — לומדים אותיות, משחקים יחד</title>
+  <link rel="icon" href="assets/dino.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-family: Arial; max-width: 600px; margin: auto; padding: 20px;">
-
-<h1>Learn Hebrew Letters - Dino</h1>
-
-<p>A fun and simple game for kids to learn the Hebrew Alef-Bet.</p>
-
-<h2>Support</h2>
-<p>If you have any questions or need help, contact:</p>
-
-<p><strong>Email:</strong> staroldur@gmail.com</p>
-
-<p>We usually respond within a few days.</p>
-
-<h2>Privacy Policy</h2>
-<p><a href="privacy.html">View Privacy Policy</a></p>
-
+<body>
+  <a class="skip" href="#main">דילוג לתוכן</a>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html" aria-label="דינו — עמוד הבית"><img src="assets/dino.webp" width="52" height="52" alt=""><span>דינו<span class="brand-sub">לומדים אותיות בעברית</span></span></a>
+    <nav aria-label="ניווט ראשי"><a href="#modes">איך משחקים?</a><a href="#parents">להורים</a><a href="privacy.html">פרטיות</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">אותיות קטנות. גילויים גדולים.</p>
+        <h1 id="hero-title">נעים להכיר,<br>אני <span>דינו.</span></h1>
+        <p class="intro">יוצאים להרפתקה בין אותיות העברית — עם דינוזאור סקרן, ארנב וצב, ביער שכולו משחק.</p>
+        <a class="button store" href="https://apps.apple.com/app/id6765877243"><span aria-hidden="true">↓</span><span>להורדה ב־<bdi lang="en" dir="ltr">App Store</bdi><small>לאייפון ולאייפד</small></span></a>
+        <p class="caption">מתחילים עם דינו · מצבי הארנב והצב נפתחים ברכישה בתוך האפליקציה</p>
+      </div>
+      <div class="forest" role="img" aria-label="דינו, הארנב והצב נפגשים ביער של המשחק">
+        <span class="forest-note">בואו נשחק באותיות</span>
+        <img class="hero-dino" src="assets/dino.webp" width="420" height="420" alt="" fetchpriority="high">
+        <img class="hero-bunny" src="assets/bunny.webp" width="240" height="300" alt="">
+        <img class="hero-turtle" src="assets/turtle.webp" width="260" height="260" alt="">
+        <span class="letter letter-a" aria-hidden="true">א</span><span class="letter letter-b" aria-hidden="true">ב</span><span class="letter letter-c" aria-hidden="true">ג</span>
+      </div>
+    </section>
+    <section class="modes-section" id="modes" aria-labelledby="modes-title">
+      <div class="wrap">
+        <div class="section-heading"><p class="eyebrow">שלושה חברים, שלוש דרכים ללמוד</p><h2 id="modes-title">מקשיבים, מגלים, מזהים.</h2><p>בכל מצב פוגשים את האותיות בדרך קצת אחרת.</p></div>
+        <div class="modes">
+          <article class="mode"><div class="portrait mint"><img src="assets/dino.webp" width="220" height="220" alt="דינו הדינוזאור" loading="lazy"><span class="mode-number" aria-hidden="true">01</span></div><div class="mode-copy"><p class="eyebrow">דינו · מקשיבים לאות</p><h3>איזו אות שמעתם?</h3><p>מקשיבים לשם האות ולוחצים על האות המתאימה.</p></div></article>
+          <article class="mode"><div class="portrait peach"><img src="assets/bunny.webp" width="220" height="220" alt="הארנב" loading="lazy"><span class="mode-number" aria-hidden="true">02</span></div><div class="mode-copy"><p class="eyebrow">ארנב · מקשיבים למילה</p><h3>במה מתחילה המילה?</h3><p>שומעים מילה ולוחצים על האות הראשונה שלה.</p></div></article>
+          <article class="mode"><div class="portrait blue"><img src="assets/turtle.webp" width="220" height="220" alt="הצב" loading="lazy"><span class="mode-number" aria-hidden="true">03</span></div><div class="mode-copy"><p class="eyebrow">צב · מתבוננים בתמונה</p><h3>מה רואים כאן?</h3><p>מזהים את מה שמופיע בתמונה ובוחרים את האות הראשונה.</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="parents wrap" id="parents" aria-labelledby="parents-title">
+      <div><p class="eyebrow">רגע להורים</p><h2 id="parents-title">מרחב קטן לשחק וללמוד.</h2><p>אפשר לשבת יחד, להקשיב ולתת לילדים לגלות את האות הבאה בקצב שלהם.</p><p>באזור ההורים שבמשחק, לאחר פתרון תרגיל, תוכלו לפתוח את מצבי המשחק הנוספים, לשחזר רכישות, ליצור קשר ולקרוא את מדיניות הפרטיות.</p><a class="text-link" href="privacy.html">למדיניות הפרטיות <span aria-hidden="true">←</span></a></div>
+      <aside class="support" aria-labelledby="support-title"><span class="support-mark" aria-hidden="true">?</span><h3 id="support-title">צריכים עזרה? אנחנו כאן.</h3><p>לשאלות על המשחק או על רכישות, כתבו לנו. בפנייה אין צורך לצרף מידע אישי על ילדים.</p><a href="mailto:staroldur@gmail.com"><bdi dir="ltr">staroldur@gmail.com</bdi></a></aside>
+    </section>
+  </main>
+  <footer class="wrap site-footer"><span>דינו · לומדים אותיות בעברית</span><a href="privacy.html">מדיניות פרטיות <span lang="en" dir="ltr">/ Privacy Policy</span></a></footer>
 </body>
 </html>
